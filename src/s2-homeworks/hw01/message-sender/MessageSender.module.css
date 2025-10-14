@@ -1,18 +1,67 @@
+/* MessageSender.module.css */
+
 .sendForm {
-
+  /* Основной фон остается БЕЛЫМ, чтобы разделить инпут и кнопку */
+  display: flex;
+  align-items: center;
+  padding: 15px 20px;
+  background-color: #fff;
+  border-top: 1px solid #e5e5e5;
 }
 
+/* --- TEXTAREA: Стилизация поля ввода --- */
 .textarea {
+  height: 40px;
+  width: 976px;
+  resize: none;
 
+  /* ФОН: Серый, как вы просили */
+  background: #f5f7fa;
+
+  /* Рамка и скругление, как на макете */
+  border: 1px solid #e5e5e5;
+  border-radius: 20px;
+
+  /* ТЕКСТ */
+  color: #000000;
+  font-size: 16px;
+  line-height: 20px;
+
+  /* Размеры */
+  height: 48px;
+  padding: 14px 20px;
+
+  /* ОТСТУП: Здесь появится белый разделитель */
+  margin-right: 15px;
+
+  overflow: hidden;
+  transition: all 0.2s ease;
 }
 
-.button {
+.textarea::placeholder {
+  color: #999;
+  height: 20px;
+  width: 976px;
+}
 
+/* --- BUTTON: Стилизация кнопки "Send" --- */
+.button {
+  height: 40px;
+  width: 120px;
+
+  background-color: #0066cc;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+
+  transition: background-color 0.2s;
+  flex-shrink: 0;
 }
 
 .button:hover {
-
-}
-.button:active {
-
+  background-color: #0088cc;
 }
