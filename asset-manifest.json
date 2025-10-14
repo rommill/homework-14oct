@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/rommill/homework-14oct/static/css/main.cc85947d.css",
-    "main.js": "/rommill/homework-14oct/static/js/main.0963f518.js",
-    "static/js/787.67f55d8d.chunk.js": "/rommill/homework-14oct/static/js/787.67f55d8d.chunk.js",
-    "static/media/avatar.png": "/rommill/homework-14oct/static/media/avatar.d947cb9d0d13765666b6.png",
-    "index.html": "/rommill/homework-14oct/index.html",
-    "main.cc85947d.css.map": "/rommill/homework-14oct/static/css/main.cc85947d.css.map",
-    "main.0963f518.js.map": "/rommill/homework-14oct/static/js/main.0963f518.js.map",
-    "787.67f55d8d.chunk.js.map": "/rommill/homework-14oct/static/js/787.67f55d8d.chunk.js.map"
+    "main.css": "./static/css/main.cc85947d.css",
+    "main.js": "./static/js/main.543203e3.js",
+    "static/js/787.67f55d8d.chunk.js": "./static/js/787.67f55d8d.chunk.js",
+    "static/media/avatar.png": "./static/media/avatar.d947cb9d0d13765666b6.png",
+    "index.html": "./index.html",
+    "main.cc85947d.css.map": "./static/css/main.cc85947d.css.map",
+    "main.543203e3.js.map": "./static/js/main.543203e3.js.map",
+    "787.67f55d8d.chunk.js.map": "./static/js/787.67f55d8d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cc85947d.css",
-    "static/js/main.0963f518.js"
+    "static/js/main.543203e3.js"
   ]
 }
